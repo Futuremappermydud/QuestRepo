@@ -1,0 +1,26 @@
+{
+  "id": "QParticles",
+  "name": "Quest Particles!",
+  "author": "Rugtveit",
+  "description": [
+      "This mod disabled particles that appear in game when you hit a note! This mod also disables glow on walls!"
+  ],
+  "category": "Gameplay",
+  "gameVersion": "1.4.3",
+  "version": "1.0.0",
+  "config": {},
+  "links": {
+  },
+  "platform": "Quest",
+  "components": [
+    {
+      "Type": "HookMod",
+      "InstallAction": {
+        "InstallLibraryFile": "libqparticles.so"
+      },
+      "UninstallAction": {
+        "RemoveLibraryFile": "libqparticles.so"
+      }
+    }
+  ]
+}
