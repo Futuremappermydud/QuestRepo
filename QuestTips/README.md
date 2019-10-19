@@ -19,5 +19,5 @@ since the video is wider and now is in HD.
 
 This can cause lag and if you are seeing it affects your gameplay, turn on and off the Quest and everything should be restarted to normal!
 
-If you got modded BeatSaber I recommend you getting the QParticles mod that removes particles whenever you hit a Note! 
+If you got modded BeatSaber I recommend you getting the [QParticles](https://github.com/Rugtveit/QuestRepo/tree/master/QuestMods/QParticles) mod that removes particles whenever you hit a Note! 
 This helps towards compression and making it easier for the viewer to see what happens!
