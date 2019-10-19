@@ -10,8 +10,11 @@ After doing my share of research I've found out options to make your Quest recor
 **WARNING This requires the Quest to be in devmode / usage of SideQuest, I, Oculus or any other aren't responsable for lag spikes or if something happens.**
 
 We are going to use the inbuilt ADB terminal inside of SideQuest (It's the button with name "Run ADB Commands")
+
 *adb shell setprop debug.oculus.capture.width 1920* - This changes the width of video you are capturing. 
+
 *adb shell setprop debug.oculus.capture.width 1080* - This changes the height of video you are capturing. 
+
 *adb shell setprop debug.oculus.capture.bitrate x* - this changes the bitrate the value is in bits so if you want 50 megabit 
 then the correct value instead of x would be 50000000.
 This doesn't change the FOV of the recording, this is like cutting parts of the square but it will be easier for people to watch
